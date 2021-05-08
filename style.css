@@ -1,0 +1,315 @@
+body {
+    margin: 0;
+}
+
+body { 
+	max-width: 1080px; 
+	margin: 0 auto !important; 
+	float: none !important; 
+}
+
+main {
+    background-color: #eeeeee;
+}
+
+
+/* mobile first  */
+
+/* Header */
+header {
+    background-color: #393e46;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #fff;
+}
+
+header nav ul li:last-child a {
+    margin-right: 0px;
+}
+
+/* main sections */
+
+p {
+    font-size: 1rem;
+}
+
+#stay h2 {
+    color: #393e46;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+}
+
+main section h2 {
+    text-align: center;
+}
+
+main section img {
+    width: 100%;
+}
+
+main section form {
+    display: flex;
+    justify-content: center;
+}
+
+main section form fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    border-color: #393e46;
+}
+
+main section form fieldset div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+main section form fieldset div:first-child {
+    margin-top: 5px;
+}
+
+main section form fieldset div:last-child {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+main section form fieldset div button {
+    width: 100%;
+    height: 40px;
+    background-color: #393e46;
+    color: #fff;
+    border: none;
+
+}
+
+main section form fieldset div input{
+    width: 60%;
+}
+
+main section form fieldset div select {
+    width: 60%;
+}
+
+/* class use */
+
+.headline {
+    background-color: #00adb5;
+}
+
+.headline h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-top: 15px;
+    color: #fff
+}
+
+.headline-two {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.headline-two h2 {
+    color: #393e46;
+    margin-bottom: 0;
+}
+
+.unify {
+    background-color: #00adb5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.unify div h2 {
+    color: #fff;
+}
+
+.unify div {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+
+.unify div h2 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.about-paragraph {
+    margin-top: 0px;
+    color: #fff;
+    
+}
+
+.margin-bottom{
+    margin-bottom: 20px;
+}
+
+
+
+/* id use */
+#ideas {
+    background-color: #eeeeee;
+}
+
+
+#ideas div h2, h3 {
+    color: #393e46;
+}
+
+#ideas {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+
+/* footer styling */
+footer {
+
+    background-color: #393e46;
+}
+
+footer h3 {
+    margin: 0;
+    color: #fff;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.div-org {
+    align-items: center;
+}
+
+/* desktop display */
+@media all and (min-width: 800px) {
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header h1 {
+        padding-top: 8px;
+        padding-left: 20px;
+    }
+
+    header nav {
+        flex-direction: column;
+        padding-right: 20px;
+    }
+
+    main section form fieldset {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    main section form fieldset div {
+        flex-direction: row;
+    }
+
+    main section form fieldset label {
+        padding-top: 8px;
+        margin-right: 5px;
+    }
+
+    main section form fieldset div:last-child {
+        width: 100px;
+    }
+
+    main section form fieldset div button {
+        width: 90px;
+        height: 30px;
+    }
+
+    main section form fieldset div input {
+        width: 150px;
+        height: 30px;
+    }
+
+    main section form fieldset div select {
+        width: 100px;
+        height: 30px;
+    }
+
+    main section form fieldset div:first-child {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    /* class use */
+    .unify {
+        flex-direction: row;
+    }
+
+    .unify div {
+        flex-direction: column;
+        margin-top: 0px;
+        
+    }
+
+    .unify .div1 {
+        flex: 1;
+    }
+
+    .unify .div2 {
+        flex: 1;
+    }
+
+    .unify .div3 {
+        flex: 2;
+    }
+
+    .margin-bottom img {
+        padding-top: 20px;
+    }
+
+    .headline h2 {
+        padding-bottom: 10px;
+    }
+
+    /* id use */
+    #about div {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
+    #host div {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+
+
+}

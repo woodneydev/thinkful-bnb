@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Thinkful-BNB</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+            crossorigin="anonymous" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <header>
+            <h1>Thinkful BNB</h1>
+            <nav>
+                <ul>
+                    <li><a href="#stay">Stay</a></li>
+                    <li><a href="#headline">About</a></li>
+                    <li><a href="#headline-two">Ideas</a></li>
+                    <li><a href="#host">Host</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="stay">
+                <h2>Find The Perfect Vaction Rental</h2>
+                <form action="process-form.js" method="post">
+                    <fieldset>
+                        <div>
+                            <label for="location">Location</label>
+                            <input id="location" type="text" name="location" placeholder="Search destination">
+                        </div>
+                        <div>
+                            <label for="arrive">Arrive</label>
+                            <input id="arive" name="arrive" type="date" />
+                        </div>
+                        <div>
+                            <label for="depart">Depart</label>
+                            <input id="depart" name="depart" type="date" />
+                        </div>
+                        <div>
+                            <label for="type">Type</label>
+                            <select name="type" size="1">
+                                <option value="apartment">Appartment</option>
+                                <option value="condo">Condo</option>
+                                <option value="House">House</option>
+                                <option value="Hotel">Hotel</option>
+                            </select>
+                        </div>
+                        <div class="last-div">
+                            <button type="submit">Search</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+
+            <div class="headline" id="headline"><h2>About</h2></div>
+            <section id="about" class="unify">
+                
+                <div class="div1">
+
+                    <img src="images/vacation-rental-pool.png" alt="vacation rental pool picture" />
+                </div>
+                <div class="div2">
+                    <img src="images/vacation-rental-inside-stone.png" alt="vacation rental inside stone" />
+                </div>
+                <div class="div3">
+                    <p class="about-paragraph">
+                        Fusce porta odio nunc, eget pretium massa rutrum sit amet. Etiam
+                        fringilla aliquam dapibus. Maecenas quis nisi sed turpis aliquam
+                        porttitor eget ut quam. Sed vel scelerisque ex. Duis in pharetra
+                        neque, at tempus lorem. Aenean mi magna, posuere at quam sed, euismod
+                        gravida neque.
+                    </p>
+                </div>
+
+            </section>
+            
+            <div class="headline-two" id="headline-two" ><h2>Ideas</h2></div>
+            <section id="ideas" class="unify">
+                
+                <div class="div-org">
+                    <div>
+                        <h3>Forest retreats</h3>
+                        <img src="images/forest-retreat.png" alt="womon meditation on log in the forest" />
+                    </div>
+                    <div>
+                        <h3>Beaches</h3>
+                        <img src="images/beach-house.png" alt="houses on beach side" />
+                    </div>
+                </div>
+
+                <div class="div-org">
+                    <div>
+                        <h3>Rustic cabins</h3>
+                        <img src="images/cabin.png" alt="wooden cabin in a forest" />
+                    </div>
+                    <div>
+                        <h3>Pet-friendly</h3>
+                        <img src="images/pet-friendly.png" alt="cat sitting on dinning table" />
+                    </div>
+                </div>
+            </section>
+
+            <section id="host" class="unify">
+                
+                <div>
+                    <h2>Want to Become a Thinkfulbnb Host?</h2>
+                    <p class="about-paragraph">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                      molestie in est id efficitur. Sed hendrerit ut turpis quis dapibus.
+                      Nam sit amet iaculis lectus. Aliquam erat volutpat. Praesent rhoncus
+                      pellentesque eros in aliquet. Sed accumsan elit lacus, id ultrices
+                      libero rutrum vitae.
+                    </p>
+                    <ul class="about-paragraph">
+                      <li>Mauris in pellentesque ligula.</li>
+                      <li>Sed accumsan elit lacus, id ultrices libero rutrum vitae.</li>
+                      <li>Nunc vitae ex eget neque pellentesque porttitor.</li>
+                      <li>Cras mollis lorem sagittis sapien imperdiet blandit. Vivamus.</li>
+                      <li>
+                        Donec vehicula ipsum nisi, eu consectetur leo feugiat et. Fusce eget
+                        hendrerit mauris.
+                      </li>
+                    </ul>
+                </div>
+                <div class="margin-bottom">
+                    <img src="images/become-a-host.png" alt="man hiding his face with a book in the lobby" />
+                </div>
+                
+            </section>
+
+        </main>
+        <footer>
+           <h3>© Thinkful</h3> 
+        </footer>
+    </body>
+
+</html>
